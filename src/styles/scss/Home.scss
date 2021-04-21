@@ -1,0 +1,25 @@
+@import "./variables/screen";
+
+@import "./animations/stacksAnimation.scss";
+
+.hero-stacks-container {
+  margin-top: 25px;
+  
+}
+
+.hero-btc-container {
+  .btc {
+    border-radius: 50%;
+    position: relative;
+    background-color: #f7921a;
+    
+    @media (min-width: $md) {
+        width: 7.5rem;
+        height: 7.5rem;
+      }
+    @media (min-width: $lg) {
+        width: 9rem;
+        height: 9rem;
+    }
+  }
+}
